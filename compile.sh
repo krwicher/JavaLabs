@@ -1,0 +1,1 @@
+javac -sourcepath src src/edu/agh/cs/jtplab/Main.java -d out
