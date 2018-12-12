@@ -19,51 +19,47 @@ public class PhysicalConstants {
         return numberFour;
     }
 
-    public static <T extends Number> Boolean isArithmetic(List<T> x) {
-        if (x.size() > 2) {
-            double r = x.get(1).doubleValue() - x.get(0).doubleValue();
-            for (int i = 2; i < x.size(); i++) {
-                double temp = x.get(i).doubleValue() - x.get(i - 1).doubleValue();
-                if (temp != r) {
+    public static <T extends Number> Boolean isArithmetic(List<T> array) {
+        int size = array.size();
+        if (size > 2) {
+            double r = array.get(1).doubleValue() - array.get(0).doubleValue();
+            for (int i = 2; i < size; i++) {
+                double temp = array.get(i).doubleValue() - array.get(i - 1).doubleValue();
+                if (temp != r)
                     return false;
-                }
             }
-
-            return true;
         }
         return true;
     }
 
-    public static <T extends Number> Boolean isGeometric(List<T> x) {
-        if (x.size() > 2) {
-            if (x.get(0).doubleValue() == 0 && x.get(1).doubleValue() > 0) {
+    public static <T extends Number> Boolean isGeometric(List<T> array) {
+        int size = array.size();
+        if (size > 2) {
+            if (array.get(0).doubleValue() == 0 && array.get(1).doubleValue() > 0) {
                 return false;
             }
-            double q = x.get(1).doubleValue() / x.get(0).doubleValue();
-            for (int i = 2; i < x.size(); i++) {
-                double temp = x.get(i - 1).doubleValue() * q;
-                if (temp != x.get(i).doubleValue()) {
+            double q = array.get(1).doubleValue() / array.get(0).doubleValue();
+            for (int i = 2; i < size; i++) {
+                double temp = array.get(i - 1).doubleValue() * q;
+                if (temp != array.get(i).doubleValue()) {
                     return false;
                 }
             }
-
-            return true;
         }
         return true;
     }
 
-    public static <T extends Number> double avgHarmonic(List<T> x) {
-        if (x.size() > 0) {
-            int lenght = x.size();
-            double reversedSum = 0;
-            for (int i = 0; i < lenght; i++) {
-                reversedSum += 1 / x.get(i).doubleValue();
+    public static <T extends Number> double avgHarmonic(List<T> array) {
+        int size = array.size();
+        double reversedSum = 0;
+        if (size > 0) {
+            for (int i = 0; i < size; i++) {
+                reversedSum += 1 / array.get(i).doubleValue();
             }
-            return (lenght / reversedSum);
         }
-
-        return 0;
+        return reversedSum;
     }
+
     private final int numberOne = 1;
     private final int numberTwo = 2;
     private final int numberThree = 3;
