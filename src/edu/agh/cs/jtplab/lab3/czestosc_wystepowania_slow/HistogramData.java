@@ -1,13 +1,14 @@
 package edu.agh.cs.jtplab.lab3.czestosc_wystepowania_slow;
 
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
 
 public class HistogramData {
     private Map<String, HistogramPoint> points;
 
     public HistogramData() {
-
+        points = new HashMap<String, HistogramPoint>();
     }
 
     public Collection<HistogramPoint> getDataPoints() {
@@ -35,5 +36,9 @@ public class HistogramData {
             }
         }
         return maxValueKey;
+    }
+
+    public void removeEntry(String key) {
+        points.remove(key);
     }
 }
