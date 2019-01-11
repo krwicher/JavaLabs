@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6684c6a-31bd-47a4-999d-3c6f0d578eb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/maven/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/agh/cs/jtplab/lab6/lambda_expressions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/agh/cs/jtplab/lab6/lambda_expressions/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/agh/cs/jtplab/lab6/lambda_expressions/PersonComparisonProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/agh/cs/jtplab/kol4/zad11/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/maven/target/" />
@@ -80,25 +77,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1203" />
-          <entry key="txt" value="66" />
+          <entry key="java" value="1607" />
+          <entry key="txt" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1203" />
-          <entry key="PLAIN_TEXT" value="66" />
+          <entry key="JAVA" value="1607" />
+          <entry key="PLAIN_TEXT" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="5" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="5" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -106,21 +103,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/agh/cs/jtplab/lab6/lambda_expressions/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/agh/cs/jtplab/kol4/zad11/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="30" column="104" lean-forward="true" selection-start-line="30" selection-start-column="104" selection-end-line="30" selection-end-column="104" />
+            <state relative-caret-position="204">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#296#312#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/agh/cs/jtplab/lab6/lambda_expressions/PersonComparisonProvider.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -192,6 +188,8 @@
         <option value="$PROJECT_DIR$/src/edu/agh/cs/jtplab/lab6/lambda_expressions/Person.java" />
         <option value="$PROJECT_DIR$/src/edu/agh/cs/jtplab/lab6/lambda_expressions/Main.java" />
         <option value="$PROJECT_DIR$/src/edu/agh/cs/jtplab/lab6/lambda_expressions/PersonComparisonProvider.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/cs/jtplab/kol4/zad11/MapStringStringCompareProvider.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/cs/jtplab/kol4/zad11/Main.java" />
       </list>
     </option>
   </component>
@@ -235,15 +233,15 @@
               <item name="JavaLabs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jtplab" type="462c0819:PsiDirectoryNode" />
-              <item name="lab6" type="462c0819:PsiDirectoryNode" />
+              <item name="kol4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaLabs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jtplab" type="462c0819:PsiDirectoryNode" />
-              <item name="lab6" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda_expressions" type="462c0819:PsiDirectoryNode" />
+              <item name="kol4" type="462c0819:PsiDirectoryNode" />
+              <item name="zad11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547226089295" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547229610395" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -270,13 +268,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.agh.cs.jtplab.lab6.lambda_expressions.Main" />
       <module name="JavaLabs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="edu.agh.cs.jtplab.lab6.lambda_expressions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.agh.cs.jtplab.kol4.zad11.Main" />
+      <module name="JavaLabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.agh.cs.jtplab.kol4.zad11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,9 +347,11 @@
       <item itemvalue="Cucumber java.All Features in: interfejs_list" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Cucumber java.All Features in: lambda_expressions" />
@@ -360,14 +373,14 @@
       <workItem from="1544642339409" duration="9402000" />
       <workItem from="1544871411069" duration="2549000" />
       <workItem from="1547151632225" duration="4495000" />
-      <workItem from="1547204349931" duration="4389000" />
+      <workItem from="1547204349931" duration="6074000" />
     </task>
-    <task id="LOCAL-00001" summary="zadanie &quot;Pola statyczne&quot;">
-      <created>1544645038692</created>
+    <task id="LOCAL-00001" summary="lab6 lambda expressions">
+      <created>1547226205170</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1544645038692</updated>
+      <updated>1547226205171</updated>
     </task>
     <task id="LOCAL-00002" summary="zadanie &quot;Klasa pomocnicza&quot;">
       <created>1544645891380</created>
@@ -411,6 +424,7 @@
       <option name="project" value="LOCAL" />
       <updated>1544873642238</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -428,7 +442,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8842000" />
+    <option name="totallyTimeSpent" value="10527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -444,14 +458,14 @@
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4989339" weight="0.3286334" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.90618336" visible="true" weight="0.33188722" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.5751599" visible="true" weight="0.33188722" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49840087" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.09381663" side_tool="true" visible="true" weight="0.33188722" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4248401" side_tool="true" visible="true" weight="0.33188722" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -469,6 +483,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab6 lambda expressions" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab6 lambda expressions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Downloads/Metrical.class" />
@@ -581,18 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/agh/cs/jtplab/lab6/lambda_expressions/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="30" column="104" lean-forward="true" selection-start-line="30" selection-start-column="104" selection-end-line="30" selection-end-column="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/agh/cs/jtplab/lab6/lambda_expressions/PersonComparisonProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -604,6 +610,36 @@
             <element signature="e#296#297#0" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
             <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/cs/jtplab/lab6/lambda_expressions/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/cs/jtplab/kol4/zad11/MapStringStringCompareProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/cs/jtplab/kol4/zad11/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#312#0" expanded="true" />
           </folding>
         </state>
       </provider>
